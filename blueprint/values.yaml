@@ -201,6 +201,12 @@ git:
   # @schema
   toRepo:
     # @schema
+    # description: Description of the target Git repository
+    # type: string
+    # default: Repository created by Krateo GitHub Scaffolding Lifecycle Blueprint
+    # @schema
+    description: Repository created by Krateo GitHub Scaffolding Lifecycle Blueprint
+    # @schema
     # description: Url of the target Git repository
     # type: string
     # format: idn-hostname

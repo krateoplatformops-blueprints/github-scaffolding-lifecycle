@@ -16,3 +16,4 @@ spec:
   name: {{ .Values.git.toRepo.name }}
   private: {{ .Values.git.toRepo.private }}
   auto_init: {{ .Values.git.toRepo.initialize }}
+  description: {{ .Values.git.toRepo.description | quote }}
