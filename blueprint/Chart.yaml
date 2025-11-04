@@ -1,5 +1,5 @@
 apiVersion: v2
-name: github-scaffolding
+name: github-scaffolding-lifecycle
 description: >
   This is a template used to scaffold a toolchain to host and deploy a fully functional frontend App.
   This Template implements the following steps:
@@ -8,6 +8,7 @@ description: >
   - A Continuous Integration pipeline (GitHub workflow) will build the Dockerfile of the frontend app and the resulting image will be published as a Docker image on the GitHub Package registry
   - An ArgoCD Application will be deployed to listen to the Helm Chart of the frontend app and deploy the chart on the same Kubernetes cluster where ArgoCD is hosted
   - The frontend App will be deployed with a Service type of NodePort kind exposed on the chosen port.
+  
 
 # A chart can be either an 'application' or a 'library' chart.
 #
