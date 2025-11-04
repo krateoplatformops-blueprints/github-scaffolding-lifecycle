@@ -231,6 +231,12 @@
           "additionalProperties": false,
           "description": "Parameters section for Git repository that will be created by Krateo",
           "properties": {
+            "description": {
+              "default": "Repository created by Krateo GitHub Scaffolding Lifecycle Blueprint",
+              "description": "Description for the target Git repository",
+              "title": "description",
+              "type": "string"
+            },
             "scmUrl": {
               "default": "https://github.com",
               "description": "Url of the target Git repository",
