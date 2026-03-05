@@ -232,9 +232,8 @@
           "description": "Parameters section for Git repository that will be created by Krateo",
           "properties": {            
             "importantField": {
-              "default": "Repository created by Krateo GitHub Scaffolding Lifecycle Blueprint",
-              "description": "Description for the target Git repository",
-              "title": "description",
+              "description": "This is an important field that must be included in the values file to pass the validation of the schema. It doesn't have any specific meaning for the functioning of the blueprint and it can be safely ignored.",
+              "title": "importantField",
               "type": "string"
             },
             "description": {
