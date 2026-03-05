@@ -230,7 +230,13 @@
         "toRepo": {
           "additionalProperties": false,
           "description": "Parameters section for Git repository that will be created by Krateo",
-          "properties": {
+          "properties": {            
+            "importantField": {
+              "default": "Repository created by Krateo GitHub Scaffolding Lifecycle Blueprint",
+              "description": "Description for the target Git repository",
+              "title": "description",
+              "type": "string"
+            },
             "description": {
               "default": "Repository created by Krateo GitHub Scaffolding Lifecycle Blueprint",
               "description": "Description for the target Git repository",
@@ -365,7 +371,8 @@
             }
           },
           "required": [
-            "name"
+            "name",
+            "importantField"
           ],
           "title": "toRepo",
           "type": "object"
