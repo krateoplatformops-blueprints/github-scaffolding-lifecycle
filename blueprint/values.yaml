@@ -200,6 +200,7 @@ git:
   # type: object
   # @schema
   toRepo:
+    importantField: "" # This is an important field that must be included in the values file to pass the validation of the schema. It doesn't have any specific meaning for the functioning of the blueprint and it can be safely ignored.
     # @schema
     # description: Description of the target Git repository
     # type: string
